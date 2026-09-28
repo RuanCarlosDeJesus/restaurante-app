@@ -20,13 +20,6 @@ Site de pedidos para restaurante de porções, batata, frango e almoço, com pai
 - Cadastro de produtos com envio de foto, tamanhos, adicionais, selos, esgotado e visibilidade
 - Horários de funcionamento, abrir/fechar manual, entrega e dados do restaurante
 
-## Estado atual
-
-Ainda **não há backend**: os dados ficam no `localStorage` do navegador, então loja e painel
-só se comunicam no mesmo navegador. O login do admin roda no navegador e **não é seguro** para
-produção. A troca por um backend real (ex.: Supabase) acontece em `src/services/db.ts` e
-`src/admin/auth.ts`, sem mexer nas telas.
-
 ## Rodando localmente
 
 ```bash
